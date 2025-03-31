@@ -18,3 +18,39 @@ p{
     /* position: fixed;
     top: 0; */
 }
+.una_caja_mas{
+    width: 150px;
+    height: 150px;
+    background-color: #1ecbe1;
+}
+.capibara{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 100%, 50%);
+}
+*{
+    color: rgb(12, 5, 0);
+    font-weight: bolder;
+}
+#soy_unico{
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+}
+a[title]{
+    color: red;
+}
+button:hover{
+    background-color: yellow;
+    color: rebeccapurple;
+}
+input:disabled{
+    background-color: gray;
+}
+p::first-line{
+    color: rgb(9, 241, 1);
+}
+p::first-letter{
+    color: red;
+    font-size: 45px;
+}
