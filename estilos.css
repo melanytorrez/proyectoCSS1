@@ -1,4 +1,4 @@
-div{
+/* div{
     width: 250px;
     height: 250px;
     background-color: rgb(255, 217, 0);
@@ -47,13 +47,13 @@ button:hover{
 input:disabled{
     background-color: gray;
 }
-/* p::first-line{
+p::first-line{
     color: rgb(9, 241, 1);
 }
 p::first-letter{
     color: red;
     font-size: 45px;
-} */
+}
 .capibara1,.capibara2,.capibara3{
     width: 100px;
     height: 100px;
@@ -62,4 +62,72 @@ p::first-letter{
 }
 .padre p{
     color: red;
+} */
+
+/* clase 02/04/24 */
+
+/* p#unico.foo p{
+    color: violet;
+}
+
+p#unico.foo.bar{
+    color: red;
+}
+
+p#unico.foo.bar.baz{
+    color: blueviolet;
+}
+
+.main{
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special{
+    color: red;
+    font-weight: bold;
+}
+.rectamgulo{
+    width: 450;
+    height: 250;
+    background-color: darkslategray;
+}
+
+.caja{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(15, 125, 36);
+}
+
+.caja-interior{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 0, 200);
+
+}
+
+.caja-interior p{
+    font-size: 2rem;
+} */
+
+body{
+    margin: 0;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: salmon;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    padding: 25px;
+    /* border-left: 12px solid red;
+    border-right: 12px solid red;
+    border-top: 12px solid red;
+    border-bottom: 12px dashed red; */
+    border: 25px solid yellowgreen;
+    margin: 25px;
+
 }
